@@ -3,6 +3,7 @@
 import React from "react";
 import Header from "@/app/components/layout/Header";
 import Link from "next/link";
+import Footer from "@/app/components/layout/Footer";
 
 const page = () => {
   return (
@@ -90,6 +91,8 @@ const page = () => {
           </div>
         </div>
       </section>
+      <Footer />
+
     </>
   );
 };
